@@ -1,0 +1,9 @@
+git init; git remote add origin https://github.com/someusername/the-project‬‬
+git pull origin master
+git branch front
+git branch
+git checkout front; git add .; git commit -m 'changes list';
+git checkout master
+git merge front
+git branch --delete front
+git push -u origin master
